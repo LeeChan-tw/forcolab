@@ -1,14 +1,11 @@
 variable "project_id" {
-  #default = "gcpsa-sandbox"
-  default = ""
+  default = "gcpsa-sandbox"
 }
 
 variable "network_name" {
-  #default = "lee-tf-test-network"
-  default = ""
+  default = "lee-tf-test-network"
 }
 
 variable "gcp_location" {
-  #default = "asia-east1"
-  default = ""
+  default = "asia-east1"
 }
